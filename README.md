@@ -1,6 +1,6 @@
 Exygy Rails
 =======
-A "bundle" of Rails goodness.
+A "bundle" of Rails goodness. Currently built on Rails 3.2.3.
 
 ## Installation instructions
 
@@ -20,3 +20,9 @@ The devise installer has already been run for you, but check out /config/devise.
 ```console
 rails g devise <MODEL>
 ```
+
+Slim devise views have already been added to the project in the /views/devise folder. 
+
+### Other notes
+[https://github.com/amatsuda/kaminari](Kaminari) is included for pagination, and bootstrap+slim kaminari views have already been added in /views/kaminari 
+
