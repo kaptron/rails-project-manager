@@ -26,3 +26,5 @@ Slim devise views have already been added to the project in the /views/devise fo
 ### Other notes
 [Kaminari](https://github.com/amatsuda/kaminari) is included for pagination, and bootstrap+slim kaminari views have already been added in /views/kaminari 
 
+[SimpleForm](https://github.com/plataformatec/simple_form) is included for form creation, and the simple_form+bootstrap installer has already been run.
+

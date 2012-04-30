@@ -37,6 +37,13 @@ group :production do
   # use unicorn on the web server (requires cedar stack on heroku)
   gem 'unicorn'
   # gem 'pg' # if using postgres on heroku 
+
+  # newrelic heroku addon
+  # gem 'newrelic_rpm'
+
+  # memcachier heroku addon
+  # gem 'memcachier'
+  # gem 'dalli'
 end
   
 
