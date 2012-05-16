@@ -24,6 +24,12 @@ gem 'kaminari'
 gem 'twitter-bootstrap-rails', :git => "git://github.com/seyhunak/twitter-bootstrap-rails.git", :branch => "static"
 gem 'simple_form'
 
+group :test do
+  # rspec and shoulda test frameworks
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'  
+end
+
 group :development do
   gem 'sqlite3'
   gem 'thin'
