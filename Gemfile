@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 3.2.3'
+gem 'rails', '~> 3.2.11'
 gem 'jquery-rails'
 
 gem 'slim-rails'
@@ -21,13 +21,14 @@ gem 'kaminari'
 # gem 'httparty'
 
 # include twitter bootstrap static file branch
-gem 'twitter-bootstrap-rails', :git => "git://github.com/seyhunak/twitter-bootstrap-rails.git", :branch => "static"
+gem 'twitter-bootstrap-rails' #, :git => "git://github.com/seyhunak/twitter-bootstrap-rails.git", :branch => "static"
 gem 'simple_form'
 
 group :test do
   # rspec and shoulda test frameworks
   gem 'rspec-rails'
   gem 'shoulda-matchers'  
+  gem 'factory_girl_rails'
 end
 
 group :development do
