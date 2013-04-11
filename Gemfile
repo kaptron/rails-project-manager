@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 3.2.11'
+gem 'rails', '~> 3.2.13'
 gem 'jquery-rails'
 
 gem 'slim-rails'
@@ -36,9 +36,9 @@ group :development do
   gem 'thin'
 end
 
-group :mysql do 
-  gem 'mysql2'
-end
+# group :mysql do 
+#   gem 'mysql2'
+# end
 
 group :production do
   # use unicorn on the web server (requires cedar stack on heroku)

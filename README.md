@@ -1,6 +1,6 @@
 Exygy Rails
 =======
-A "bundle" of Rails goodness. Currently built on Rails 3.2.11.
+A "bundle" of Rails goodness. Currently built on Rails 3.2.13.
 
 ## Installation instructions
 
