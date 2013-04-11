@@ -14,13 +14,6 @@ From the project directory run:
 ### 2. Devise
 https://github.com/plataformatec/devise
 
-The devise installer has already been run for you, but check out /config/devise.rb to make sure the configuration options suit you. You will still need to generate your user model:
-
-
-```
-rails g devise <MODEL>
-```
-
 Slim devise views have already been added to the project in the /views/devise folder. 
 
 ### Other notes
