@@ -11,6 +11,8 @@ gem 'devise'
 # pagination
 gem 'kaminari'
 
+gem 'feedzirra', '0.2.0.rc2'
+
 # file/image attachments 
 # gem 'paperclip'
 
@@ -24,7 +26,7 @@ gem 'kaminari'
 gem 'twitter-bootstrap-rails' #, :git => "git://github.com/seyhunak/twitter-bootstrap-rails.git", :branch => "static"
 gem 'simple_form'
 
-group :test do
+group :test, :development do
   # rspec and shoulda test frameworks
   gem 'rspec-rails'
   gem 'shoulda-matchers'  
